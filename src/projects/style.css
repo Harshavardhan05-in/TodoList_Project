@@ -1,0 +1,132 @@
+*{
+    padding:0px;
+    margin:opx;
+}
+
+:root{
+    background-color: #00879E;
+    border-radius: 5%;
+}
+.main{
+
+    width:60rem;
+    height:30rem;
+    border-radius: 30px;
+    margin-left:12.5rem;
+    text-align: center;
+    padding:0.01rem;
+}
+#todo{
+    font-size:40px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color:#690B22;
+}
+.datetime{
+    position:relative;
+    bottom:1rem;
+    font-weight: bold;
+    color:#7D1C4A;
+    font-size:20px;
+    display: inline-block;
+    padding:0.3rem;
+    background-color: yellow;
+    border-radius:5px;
+    border:red solid 2px;
+}
+.form-content{
+    margin-left:5rem;
+    width:50rem;
+}
+.mainform{
+    height:3rem;
+    width:30rem;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+    font-size:2rem;
+    padding:0.2rem;
+}
+.addbut{
+    height:3.65rem;
+    width:5rem;
+    font-size:2rem;
+    position:relative;
+    right:0.2rem;
+    border:black solid 2px,
+}
+
+.items{
+    font-size:2.5rem; 
+    border:rgb(255, 0, 106) solid 2px; 
+    display: flex;
+    justify-content: space-between;
+    padding-top:0.2rem;
+    background-color: #EBE5C2;
+    padding:5px 10px 0 10px;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+.butt{
+    height:3.5rem;
+    width:3.5rem;
+    font-size:2.5rem;
+    margin-bottom: 0.2rem;
+    border-radius: 50%;
+    padding-top: 0.3rem;
+}
+.clearBut{
+    height:3.5rem;
+    width:9rem;
+    border-radius:1rem;
+    font-size:2rem;
+    background-color:#FFB22C;
+    border:#D91656 solid 3px;
+}
+.mark{
+    text-decoration: line-through;
+}
+.unmark{
+    text-decoration: none;
+}
+
+@media (max-width:500px) and (max-height:1000px){
+    :root{
+        background-color: #3cafc4;
+    }
+    .main{
+        width:380px;
+        margin-top:20px;
+        margin-left:10px;
+    }
+    .mainform{
+        width:250px;
+        position: relative;
+        right:290px;
+        font-size:30px;
+    }
+    .addbut{
+        width:50px;
+        font-size:20px;
+        position: relative;
+        right:295px;
+        bottom: 3.5px;
+    }
+    .items{
+        width:280px;
+        font-size:30px;
+        position: relative;
+        right:50px;
+    }
+    .butt{
+        height:40px;
+        width:40px;
+        font-size:20px;
+    }
+    .clearBut{
+        position: relative;
+        height:40px;
+        font-size: 20px;
+        width:100px;
+        right:300px;
+    }
+}
